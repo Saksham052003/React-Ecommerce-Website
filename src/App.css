@@ -1,38 +1,298 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-menu {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  margin-right: 1rem;
+}
+
+/* Navbar brand image */
+.navbar-brand img {
+  width: auto;
+  height: 60px;
+}
+
+/* Navbar navigation menu */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-grow: 1; /* Allow navbar-nav to grow and occupy remaining space */
+}
+
+/* Navbar item spacing */
+.nav-item {
+  margin: 0 1rem;
+}
+
+/* Navbar link styling */
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Navbar link hover and focus effects */
+.nav-link:hover,
+.nav-link:focus {
+    color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Navbar actions for search and cart */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+/* Search button styling */
+.search-btn {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.search-btn:hover {
+  text-decoration: none;
+  background-color: #007bff;
   color: white;
+  transform: scale(1.1);
 }
 
-.App-link {
-  color: #61dafb;
+/* Cart link styling */
+.cart-link {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Shopping cart icon */
+.cart-link .fas.fa-shopping-cart {
+  font-size: 1.5rem;
+}
+
+.cart-link:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+/*==============Styling for the products section start============== */
+.products {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f8f9fa; /* Light grey background color */
+}
+
+/* Styling for section title */
+.section_title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333; /* Dark grey color */
+  text-transform: capitalize;
+}
+
+/* Styling for single product */
+.single_product {
+  background-color: #fff; /* White background color for product items */
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Shadow effect */
+}
+
+/* Styling for product image */
+.product_img img {
+  width: 100%; /* Set width to 100% */
+  height: 300px;
+  border-radius: 10px;
+}
+
+/* Styling for new product badge */
+.new_product {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Styling for product caption */
+.product-caption {
+  margin-top: 1rem;
+}
+
+/* Styling for product rating */
+.product-ratting {
+  color: #f39c12; /* Yellow color for star rating */
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for product price */
+.price {
+  font-size: 1.25rem;
+  color: #333; /* Dark grey color */
+}
+
+/* Styling for product links */
+.product-caption h4 a {
+  color: #333; /* Dark grey color */
+  text-decoration: none; /* Remove text decoration */
+}
+
+/* Styling for product links on hover */
+.product-caption h4 a:hover {
+  color: #007bff; /* Blue color on hover */
+  text-decoration: none; /* Remove text decoration */
+}
+.new_product {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc3545; /* Red background color for the badge */
+  color: white; /* White text color for the badge */
+  /* Padding for the badge */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 0.75rem; /* Font size for the badge text */
+}
+
+/*==============Styling for the products section ends============== */
+
+/*==============Styling for the feature section start============== */
+.feature {
+  background-color: aliceblue; /* Light grey background */
+}
+
+/* Styling for the feature items */
+.feature-item {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.feature-item i {
+  color: #007bff; /* Blue icon color */
+}
+
+.feature-item h3 {
+  color: #333; /* Dark grey heading color */
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-item p {
+  color: #666; /* Grey paragraph color */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.feature-item:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Shadow effect on hover */
+}
+
+/*==============Styling for the feature section ends============== */
+
+#category-list li {
+  cursor: pointer;
+}
+
+/* Styling for search result item card title link */
+.card-title a {
+  text-decoration: none; /* Remove text decoration */
+  color: inherit; /* Inherit color from parent element */
+}
+
+.card-title a:hover {
+  color: #007bff; /* Blue color on hover */
+  text-decoration: none; /* Ensure text decoration remains none on hover */
+}
+.accordion .btn-link {
+  text-decoration: none;
+}
+
+
+/*==============Styling for footer section starts============== */
+
+.footer_section {
+  background-color: lightcyan; /* Dark background color */
+  color: black; /* White text color */
+}
+
+/* Styling for footer links */
+.footer_links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer_links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer_links ul li a {
+  color: black; 
+  text-decoration: none; /* Remove text decoration */
+}
+
+.footer_links ul li a:hover {
+  color: darksalmon; 
+}
+
+/* Styling for footer border */
+.border-top {
+  border-top: 5px solid darkblue; /* Light grey border */
+  padding-top: 1.5rem;
+}
+
+/* Styling for back to top button */
+.backtop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.backtop a {
+  color: #343a40; /* Dark text color */
+}
+
+.backtop a:hover {
+  color: #007bff; /* Blue text color on hover */
+}
+
+/*==============Styling for footer section ends============== */
+
+@media (max-width: 991px) {
+  .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar-actions {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 1rem;
   }
+  .sidebar, .main-content {
+      flex: 0 0 100%; /* Set both to full width on smaller screens */
+  }
+  
 }

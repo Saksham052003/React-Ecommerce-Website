@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "product_name": "iPhone 15",
+        "price": 150000,
+        "rating": 4.3,
+        "about_product": "High quality and durable.",
+        "category": "Electronics",
+        "image": "https://static0.pocketlintimages.com/wordpress/wp-content/uploads/2023/09/apple-iphone-15-pro-square-tag.jpg"
+    },
+    {
+        "id": 2,
+        "product_name": "Dell Laptop",
+        "price": 50000,
+        "rating": 4,
+        "about_product": "Comfortable and stylish.",
+        "category": "Electronics",
+        "image": "https://i5.walmartimages.com/asr/c676d0ca-fbe4-42f1-95ff-ddac4471b480_1.a040995612a3066615f84607a8305d45.jpeg"
+    },
+    {
+        "id": 3,
+        "product_name": "AUX Air Condtioner",
+        "price": 30000,
+        "rating": 3.5,
+        "about_product": "Comfortable and stylish.",
+        "category": "Electronics",
+        "image": "https://purepng.com/public/uploads/large/purepng.com-air-conditionerair-conditionerairconditioneracacair-conair-conditioning-1701528308946yiucl.png"
+    },
+    {
+        "id": 4,
+        "product_name": "Men's Hoodie of nike",
+        "price": 3459,
+        "rating": 4,
+        "about_product": "Comfortable and stylish.",
+        "category": "Clothes",
+        "image": "https://i5.walmartimages.com/asr/5b8d0967-e39c-4152-bbd7-8473fc25a00c_1.42efa3d20b1170cd3ce903b2b6369a0a.jpeg"
+    },
+    {
+        "id": 5,
+        "product_name": "Men's Cargo Pants",
+        "price": 989,
+        "rating": 4,
+        "about_product": "Comfortable and stylish.",
+        "category": "Clothes",
+        "image": "https://i.pinimg.com/736x/fa/41/04/fa4104ab858cefc518a8ed8ea371373b.jpg"
+    },
+    {
+        "id": 6,
+        "product_name": "Xbox one x 1TB Console",
+        "price": 52000,
+        "rating": 4.5,
+        "about_product": "Comfortable and stylish.",
+        "category": "Console Games",
+        "image": "https://i5.walmartimages.com/asr/809da67c-23eb-482e-8f77-9ab49cb76be6_1.9ba17d1fd0c3ad3ba7c0ad8545de4a6e.jpeg"
+    },
+    {
+        "id": 7,
+        "product_name": "PlayStation 5 Degitat adition Console",
+        "price": 51200,
+        "rating": 5,
+        "about_product": "Comfortable and stylish.",
+        "category": "Console Games",
+        "image": "https://th.bing.com/th/id/R.954979a856917ce6f80c55016fd6b45c?rik=EeVb2z4Jw4R%2fMA&riu=http%3a%2f%2fwww.authentkicks.com%2fwp-content%2fuploads%2f2020%2f09%2fIMG_7893-1024x683.jpeg&ehk=DJW364ELOYbLQunmCEQVEUEfVgMhYXsZ%2bpGd6lt7e0U%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 8,
+        "product_name": "Aashirvaad atta 10kg pack",
+        "price": 749,
+        "rating": 4.5,
+        "about_product": "Comfortable and stylish.",
+        "category": "Food",
+        "image": "https://m.media-amazon.com/images/I/91o0m2iIpVL._SL1500_.jpg"
+    },
+    {
+        "id": 9,
+        "product_name": "India Gate Basmati Rice 10kg ",
+        "price": 801,
+        "rating": 3.5,
+        "about_product": "Comfortable and stylish.",
+        "category": "Food",
+        "image": "https://www.jiomart.com/images/product/420x420/491296184/india-gate-regular-choice-10-kg-bag-1-20200911.jpg"
+    },
+    {
+        "id": 10,
+        "product_name": "Kitchen Cleaning",
+        "price": 500,
+        "rating": 3.5,
+        "about_product": "Comfortable and stylish.",
+        "category": "Kitchen Product",
+        "image": "https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco/https://storage.googleapis.com/gen-atmedia/3/2018/01/20c0ebe83361aec6d9ffd8659429594bd61fe60f.jpeg"
+    },
+    {
+        "id": 11,
+        "product_name": "Frying Pan",
+        "price": 549,
+        "rating": 4.5,
+        "about_product": "Comfortable and stylish.",
+        "category": "Kitchen Product",
+        "image": "https://www.ikea.com/in/en/images/products/kavalkad-frying-pan-black__0811388_pe771635_s5.jpg"
+    }
+]
