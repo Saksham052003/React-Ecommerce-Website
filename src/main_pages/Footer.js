@@ -13,9 +13,9 @@ const Footer = () => {
                     <Link to="/">
                           <img src={logo2} width="150px" class="img img-fluid" alt="logo"/></Link>
                     </div>
-                <div className="footer_description mt-3">This is E-Commerce devloped by Saksham Sharma.
+                    <div className="footer_description mt-3">This is E-Commerce devloped by Saksham Sharma.
+                    </div>
                 </div>
-            </div>
             <div className="col-md-3 col-6">
                 <div className="footer_title pt-3 mb-3">
                     <h3>Quick Links</h3>
