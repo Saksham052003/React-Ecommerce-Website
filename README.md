@@ -1,6 +1,6 @@
 # React-Ecommerce-Website
 This project is a simple e-commerce website built using React. It includes various pages such as Home, Product, Product Detail, Cart, Payment, Successful Payment, Search, Category Products, Transaction History, Contact, About, and FAQ.
-
+Live Preview: [https://weatherappsaksham.netlify.app/](https://ecommercesaksham.netlify.app/)
 ## Features
 1. Home page with carousel and latest products
 2. Product page with filter by category
